@@ -10,7 +10,7 @@ export async function getStaticProps({ params }) {
     props: {
       book: data,
     },
-  };
+  }
 }
 
 export async function getStaticPaths() {
